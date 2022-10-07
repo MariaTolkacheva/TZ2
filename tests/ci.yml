@@ -16,4 +16,9 @@ jobs:
         run: cd $GITHUB_WORKSPACE
 
       - name: Run Tests
-        run: python -m unittest discover "*_test.py"
+        run: python -m unittest discover -v . "*_test.py"
+       -name: Running
+        run: | 
+         pip install pytest
+         pytest
+       
