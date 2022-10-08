@@ -33,4 +33,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest example.py
-        pytest test_divisiom_func.py
+        pytest tests/test_divisiom_func.py
