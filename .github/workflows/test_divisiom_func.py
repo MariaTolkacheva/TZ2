@@ -1,4 +1,4 @@
-from utils import division
+from tests.utils import division
 import pytest
 
 
