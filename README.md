@@ -6,4 +6,4 @@
 [![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
 {<img src="https://app.travis-ci.com/MariaTolkacheva/TZ2.svg?token=oQwsxNSVbZt7X9uHnupx&branch=main" alt="Build Status" />}[https://app.travis-ci.com/MariaTolkacheva/TZ2]
 [![Build Status](https://github.com/MariaTolkacheva/TZ2/workflows/badge.svg)](https://github.com/MariaTolkacheva/TZ2/actions)
-<a href="https://github.com/MariaTolkacheva/TZ2/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/MariaTolkacheva/TZ2"></a>
+<a href="https://github.com/MariaTolkacheva/TZ2/network"><img alt="GitHub forks" src="https://img.shields.io/github/actions/MariaTolkacheva/TZ2"></a>
