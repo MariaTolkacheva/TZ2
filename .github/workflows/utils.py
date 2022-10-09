@@ -1,5 +1,5 @@
 # opening the file
-f = open(r'C:\Users\Huawei NB\TZ2\tests\numbers.txt', 'r')
+f = open('numbers.txt', 'r')
 # a list with all our numbers
 str_num = []
 for x in f:
