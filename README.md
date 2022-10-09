@@ -8,3 +8,4 @@
 [![Build Status](https://github.com/MariaTolkacheva/TZ2/workflows/badge.svg)](https://github.com/MariaTolkacheva/TZ2/actions)
 <a href="https://github.com/MariaTolkacheva/TZ2/network"><img alt="GitHub forks" src="https://img.shields.io/github/actions/MariaTolkacheva/TZ2"></a>
 <img alt="AppVeyor tests (branch)" src="https://img.shields.io/appveyor/tests/MariaTolkacheva/TZ2/main">
+<a href="https://github.com/MariaTolkacheva/TZ2/actions"><img alt="GitHub actions" src="https://img.shields.io/github/actions/MariaTolkacheva/TZ2"></a>
