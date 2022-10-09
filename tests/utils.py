@@ -7,24 +7,19 @@ for x in f:
 
 
 def num_min(list_num):
-    try:
-        print(min(int(x) for x in list_num))
-    except ValueError:
-        pass
+    return min(int(x) for x in list_num)
 
 
-def division(a, b):
-    return a / b
+def num_max(list_num):
+    return max(int(x) for x in list_num)
 
 
-def num_sum(a):
-    s = 0
+def num_sum(list_num):
+    return sum(int(x) for x in list_num)
+
+
+def num_prod(a):
+    s = 1
     for i in a:
-        try:
-            s += int(i)
-        except ValueError:
-            print('no', i)
-
-
-num_sum(str_num)
-num_min(str_num)
+        s *= int(i)
+    return s

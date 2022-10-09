@@ -34,3 +34,4 @@ jobs:
       run: |
         pytest example.py
         pytest tests/test_divisiom_func.py
+        pytest --durations=0
