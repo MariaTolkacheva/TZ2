@@ -4,7 +4,9 @@ f = open('numbers.txt', 'r')
 str_num = []
 for x in f:
     str_num += x.split()
-
+list_num=[]
+for x in str_num:
+    list_num += [int(x)]
 
 def num_min(list_num):
     return min(int(x) for x in list_num)
