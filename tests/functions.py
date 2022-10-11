@@ -1,4 +1,5 @@
 # opening the file
+'''
 f = open('numbers.txt', 'r')
 # a list with all our numbers
 str_num = []
@@ -7,7 +8,7 @@ for x in f:
 list_num = []
 for x in str_num:
     list_num += [int(x)]
-
+'''
 
 def num_min(list_num):
     return min(int(x) for x in list_num)
