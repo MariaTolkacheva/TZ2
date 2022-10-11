@@ -1,7 +1,15 @@
-from utils import *
+from functions import *
 import pytest
 import time
-start_time = time.time()
+
+@pytest.mark.parametrize("a", [(['1', '2', '3', '3', '4']),
+                                               (['3', '2', '3', '3', '4']),
+                                               (['7', '8', '1000', '89898', '988'])])
+def test_time(a):
+    start_time = time.time_ns()
+    k = num_sum(a) + num_max(a) + num_min(a) + num_prod(a)
+    end_time=time.time_ns()
+    assert (end_time-start_time)<5
 
 @pytest.mark.parametrize("a,expected_result", [(['1', '2', '3', '3', '4'], 1),
                                                (['3', '2', '3', '3', '4'], 2),
