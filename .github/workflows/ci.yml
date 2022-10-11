@@ -1,19 +1,13 @@
-name: CICD lesson version
-
-on:
-  push:
-    branches: main
-  pull_request:
-    branches: main
-  workflow_dispatch:
-
+name: notify.events message
+on: [push]
 jobs:
-  on_build_actions:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Install depencies
-        run: cd $GITHUB_WORKSPACE
-
-      - name: Run Tests
-        run: python -m unittest discover -v . "*_test.py"
+      - uses: actions/checkout@master
+      - name: send custom message
+        uses: notify-events/github-action@main
+        with:
+          token: ${{secrets.TELEGRAM_TOKEN }}
+          text:  This is message
