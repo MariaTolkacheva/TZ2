@@ -25,7 +25,7 @@ def num_max(list_num):
 def num_sum(list_num):
     s = 0
     for i in list_num:
-        s += int(x)
+        s += int(i)
     return s
 
 
