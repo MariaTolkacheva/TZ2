@@ -44,3 +44,9 @@ def test_prod_good(a, expected_result):
 def test_prod_error(expected_exeption, a):
     with pytest.raises(expected_exeption):
         num_prod(a)
+
+# Testing ValueErrors with product
+@pytest.mark.parametrize("expected_exeption, a", [(ValueError, ['1', '3', '5', 'kuiiuiiuii'])])
+def test_prod_error(expected_exeption, a):
+    with pytest.raises(expected_exeption):
+        num_prod(a)
